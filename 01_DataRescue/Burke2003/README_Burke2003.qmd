@@ -221,4 +221,55 @@ data.lvl0.df <- list(citation =
                                 )))
 ```
 
+# Level 1
+
+```{r Level1}
+
+#### Methods section only ####
+
+studyMeta <- tribble(~site_id, ~of_variable, ~is_type, ~with_entry, ~from_source,
+  # Hawaii
+  'Hawaii', 'region', 'value', 'Hamakua Coast, Hawaii, northeast flank of Mauna Kea', paste('Method ln7:', data.lvl0.df$method[7]),
+  'Hawaii', 'elevation', 'value', '700', paste('Method ln7:', data.lvl0.df$method[7]),
+  'Hawaii', 'elevation', 'unit', 'm', paste('Method ln7:', data.lvl0.df$method[7]),
+  'Hawaii', 'soil_class', 'value', 'Typic Distrandepts', paste('Method ln8:', data.lvl0.df$method[8]),
+  'Hawaii', 'soil_age', 'value', '15000 to 20000', paste('Method ln8:', data.lvl0.df$method[8]),
+  'Hawaii', 'soil_age', 'unit', 'yr', paste('Method ln8:', data.lvl0.df$method[8]),
+  'Hawaii', 'total_rainfall', 'value', '2500 to 4000', paste('Method ln9:', data.lvl0.df$method[9]),
+  'Hawaii', 'total_rainfall', 'unit', 'mm', paste('Method ln9:', data.lvl0.df$method[9]),
+  'Hawaii', 'mean_air_temperature', 'value', '22', paste('Method ln10:', data.lvl0.df$method[10]),
+  'Hawaii', 'mean_air_temperature', 'unit', '°C', paste('Method ln10:', data.lvl0.df$method[10]),
+  'Hawaii', 'stand_age', 'value', '90', paste('Method ln12:', data.lvl0.df$method[12]),
+  'Hawaii', 'stand_age', 'unit', 'yr', paste('Method ln12:', data.lvl0.df$method[12]),
+  # Brazil
+  'Brazil', 'region', 'value', 'Piracicaba, São Paulo, Brazil', paste('Method ln23:', data.lvl0.df$method[23]),
+  'Brazil', 'elevation', 'value', '575', paste('Method ln23:', data.lvl0.df$method[23]),
+  'Brazil', 'elevation', 'unit', 'm', paste('Method ln23:', data.lvl0.df$method[23]),
+  'Brazil', 'total_rainfall', 'value', '1400', paste('Method ln24:', data.lvl0.df$method[24]),
+  'Brazil', 'total_rainfall', 'unit', 'mm', paste('Method ln24:', data.lvl0.df$method[24]),
+  'Brazil', 'mean_air_temperature', 'value', '20', paste('Method ln24:', data.lvl0.df$method[24]),
+  'Brazil', 'mean_air_temperature', 'unit', '°C', paste('Method ln24:', data.lvl0.df$method[24]),
+  'Brazil', 'soil_class', 'value', 'Typic Haplorthox', paste('Method ln25:', data.lvl0.df$method[25]),
+  'Brazil', 'stand_age', 'value', '27 and 65', paste('Method ln28:', data.lvl0.df$method[28]),
+  'Brazil', 'stand_age', 'unit', 'yr', paste('Method ln28:', data.lvl0.df$method[28]),
+  # Ecuador
+  'Ecuador', 'region', 'value', 'Western slope of Ecuadorian Andes', paste('Method ln38:', data.lvl0.df$method[38]),
+  'Ecuador', 'elevation', 'value', '1400', paste('Method ln38:', data.lvl0.df$method[38]),
+  'Ecuador', 'elevation', 'unit', 'm', paste('Method ln38:', data.lvl0.df$method[38]),
+  'Ecuador', 'total_rainfall', 'value', '3200', paste('Method ln39:', data.lvl0.df$method[39]),
+  'Ecuador', 'total_rainfall', 'unit', 'mm', paste('Method ln39:', data.lvl0.df$method[39]),
+  'Ecuador', 'mean_air_temperature', 'min', '17', paste('Method ln39:', data.lvl0.df$method[39]),
+  'Ecuador', 'mean_air_temperature', 'max', '26', paste('Method ln39:', data.lvl0.df$method[39]),
+  'Ecuador', 'mean_air_temperature', 'unit', '°C', paste('Method ln39:', data.lvl0.df$method[39]),
+  'Ecuador', 'soil_class', 'value', 'Andic Humitropepts', paste('Method ln40:', data.lvl0.df$method[40]),
+  'Ecuador', 'soil_age', 'value', '2500', paste('Method ln40:', data.lvl0.df$method[40]),
+  'Ecuador', 'soil_age', 'unit', 'yr', paste('Method ln40:', data.lvl0.df$method[40]),
+  'Ecuador', 'stand_age', 'value', '25', paste('Method ln43:', data.lvl0.df$method[43]),
+  'Ecuador', 'stand_age', 'unit', 'yr', paste('Method ln43:', data.lvl0.df$method[43]),
+)
+```
+
+```{r test}
+data.lvl0.df$method[41:50]
+```
 
